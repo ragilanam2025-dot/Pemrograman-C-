@@ -1,0 +1,28 @@
+Logical Operators dalam adalah operator yang digunakan untuk menggabungkan dan memanipulasi ekspresi logika dengan hasilnya selalu berupa true (benar) atau false (salah).
+Operator	Name	Description	Example
+&& 	Logical AND	menghasilkan true hanya jika kedua kondisi bernilai true.	x < 5 &&  x < 10
+|| 	Logical OR	menghasilkan true jika salah satu atau kedua kondisi bernilai true.	x < 5 || x < 4
+!	Logical NOT	digunakan untuk membalikkan nilai logika dari suatu kondisi.	!(x < 5 && x < 10)
+
+Contoh code :
+#include <iostream>
+using namespace std;
+ 
+int main() {
+    bool x = true;
+    bool y = false;
+ 
+    cout << "x = " << x << ", y = " << y << endl;
+ 
+    // Logical AND
+    cout << "x && y = " << (x && y) << endl;   // true AND false = false
+ 
+    // Logical OR
+    cout << "x || y = " << (x || y) << endl;   // true OR false = true
+ 
+    // Logical NOT
+    cout << "!x = " << (!x) << endl;           // NOT true = false
+    cout << "!y = " << (!y) << endl;           // NOT false = true
+ 
+    return 0;
+}
