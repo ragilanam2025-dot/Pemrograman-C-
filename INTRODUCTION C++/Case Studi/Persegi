@@ -1,0 +1,23 @@
+Program diminta menghitung dan menampilkan keliling serta luas dari persegi tersebut.
+Code :
+#include <iostream>
+using namespace std;
+ 
+int main() {
+    int sisi = 6;  // contoh nilai sisi persegi
+    int keliling, luas;
+ 
+    // Hitung keliling dan luas
+    keliling = 4 * sisi;
+    luas = sisi * sisi;
+ 
+    // Output hasil
+    cout << "Ragil Anam Winarya_25051030053" << endl;
+    cout << "=== Hasil Perhitungan Persegi ===" << endl;
+    cout << "Sisi     : " << sisi << endl;
+    cout << "Keliling : " << keliling << endl;
+    cout << "Luas     : " << luas << endl;
+ 
+    return 0;
+}
+ 
