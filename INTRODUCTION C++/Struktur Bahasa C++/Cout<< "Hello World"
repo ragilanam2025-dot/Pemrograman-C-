@@ -1,0 +1,4 @@
+Merupakan statement pada C++. 
+statement merupakan ekspresi (sederhana atau kompleks) yang akan menghasilkan efek tertentu saat dieksekusi. 
+Statement cout (baca : C-out) akan menampilkan keluaran pada layar. cout dideklarasikan pada file iostream.
+Oleh karena itulah file iostream dilibatkan melalui perintah #include <iostream>. Tanda << dalam C++ berarti meyisipkan string "Hello World"ke dalam aliran keluaran. 
