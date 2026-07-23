@@ -1,0 +1,8 @@
+Cout adalah bahasa pada C++ yang digunakan untuk menampilkan output ke layar
+Contoh :
+#include <iostream>
+ 
+int main() {
+    std::cout << "Hello, world!" << std::endl; 
+    return 0;
+}
