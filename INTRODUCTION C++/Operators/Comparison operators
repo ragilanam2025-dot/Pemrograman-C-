@@ -1,0 +1,25 @@
+Comparison Operators dalam adalah operator yang digunakan untuk membandingkan dua nilai dengan hasil perbandingan berupa true (benar) atau false (salah).
+==	Equal to	membandingkan dua nilai apakah sama.	x == y
+!=	Not equal to	memeriksa apakah dua nilai tidak sama.	x != y
+>	Greater than	mengecek apakah nilai di sebelah kiri lebih besar dari nilai di sebelah kanan.	x > y
+<	Less than	mengecek apakah nilai di sebelah kiri lebih kecil dari nilai di sebelah kanan.	x < y
+>=	Greater than	bernilai true jika nilai di sebelah kiri lebih besar atau sama dengan nilai di sebelah kanan.	x >= y
+<=	Less than	bernilai true jika nilai di sebelah kiri lebih kecil atau sama dengan nilai di sebelah kanan.	x <= y
+Contoh code :
+#include <iostream>
+using namespace std;
+ 
+int main() {
+    int a = 10, b = 20;
+ 
+    cout << "a = " << a << ", b = " << b << endl;
+ 
+    cout << "Apakah a == b ? " << (a == b) << endl;   // sama dengan
+    cout << "Apakah a != b ? " << (a != b) << endl;   // tidak sama dengan
+    cout << "Apakah a > b  ? " << (a > b)  << endl;   // lebih besar
+    cout << "Apakah a < b  ? " << (a < b)  << endl;   // lebih kecil
+    cout << "Apakah a >= b ? " << (a >= b) << endl;   // lebih besar atau sama
+    cout << "Apakah a <= b ? " << (a <= b) << endl;   // lebih kecil atau sama
+ 
+    return 0;
+}
