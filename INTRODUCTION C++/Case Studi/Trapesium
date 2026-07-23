@@ -1,0 +1,35 @@
+Program diminta menghitung dan menampilkan keliling serta luas dari trapesium tersebut.
+Code :
+#include <iostream>
+using namespace std;
+ 
+int main() {
+    // Contoh nilai trapesium
+    int sisiAtas = 4;
+    int sisiBawah = 12;
+    int tinggi = 6;
+    int sisiMiringKiri = 7;
+    int sisiMiringKanan = 7;
+ 
+    int keliling;
+    float luas;
+ 
+    // Hitung keliling
+    keliling = sisiAtas + sisiBawah + sisiMiringKiri + sisiMiringKanan;
+ 
+    // Hitung luas (rumus trapesium: 1/2 * (jumlah sisi sejajar) * tinggi)
+    luas = 0.5 * (sisiAtas + sisiBawah) * tinggi;
+ 
+    // Output hasil
+    cout << "Ragil Anam Winarya_25051030053" << endl;
+    cout << "=== Hasil Perhitungan Trapesium ===" << endl;
+    cout << "Sisi Atas        : " << sisiAtas << endl;
+    cout << "Sisi Bawah       : " << sisiBawah << endl;
+    cout << "Tinggi           : " << tinggi << endl;
+    cout << "Sisi Miring Kiri : " << sisiMiringKiri << endl;
+    cout << "Sisi Miring Kanan: " << sisiMiringKanan << endl;
+    cout << "Keliling         : " << keliling << endl;
+    cout << "Luas             : " << luas << endl;
+ 
+    return 0;
+}
