@@ -1,0 +1,36 @@
+Arithmetic Operators adalah operator yang digunakan untuk melakukan operasi perhitungan matematika pada variabel atau nilai.
+Operator	Name	Description	Example
++	Addition	Penjumlahan variabel x dan y 	x + y
+-	Subtraction	Pengurangan variabel x dan y 	x - y
+*	Multiplication	Perkalian variabel x dan y 	x * y
+/	Division	Pembagian variabel x dan y 	x / y
+%	Modulus	Sisa bagi variabel x dan y 	x % y
+++	Increment	Penambahan satu variabel x 	++x
+--	Decrement	Pengurangan satu variabel y 	--x
+Contoh code :
+#include <iostream>
+using namespace std;
+ 
+int main() {
+    int a = 9, b = 3;
+ 
+    cout << "a = " << a << ", b = " << b << endl;
+ 
+    // Operasi matematika dasar
+    cout << "Penjumlahan (a + b) = " << a + b << endl;
+    cout << "Pengurangan (a - b) = " << a - b << endl;
+    cout << "Perkalian (a * b) = " << a * b << endl;
+    cout << "Pembagian (a / b) = " << a / b << endl;   // hasil bulat
+    cout << "Sisa bagi (a % b) = " << a % b << endl;   // modulus
+ 
+    // Increment dan Decrement
+    cout << "\nSebelum increment, a = " << a << endl;
+    a++;  // increment (a = a + 1)
+    cout << "Setelah a++ (increment), a = " << a << endl;
+ 
+    cout << "\nSebelum decrement, b = " << b << endl;
+    b--;  // decrement (b = b - 1)
+    cout << "Setelah b-- (decrement), b = " << b << endl;
+ 
+    return 0;
+}
