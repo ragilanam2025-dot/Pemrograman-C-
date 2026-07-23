@@ -1,0 +1,16 @@
+Bool adalah variable yang digunakan untuk menyimpan nilai logika, yaitu hanya dua kemungkinan, dapat berupa true (benar) atau false (salah).
+Contoh :
+#include <iostream>
+using namespace std;
+ 
+int main() {
+    bool lampuMenyala = true;
+ 
+    if (lampuMenyala) {
+        cout << "Lampu sedang menyala" << endl;
+    } else {
+        cout << "Lampu mati" << endl;
+    }
+ 
+    return 0;
+}
