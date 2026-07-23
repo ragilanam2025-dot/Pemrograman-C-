@@ -1,0 +1,13 @@
+String adalah variable yang digunakan untuk menyimpan kumpulan karakter (teks atau kalimat).
+Contoh :
+#include <iostream>
+#include <string>  // library string
+using namespace std;
+ 
+int main() {
+    string nama = "Ragil";
+ 
+    cout << "Nama saya: " << nama << endl;
+ 
+    return 0;
+} 
