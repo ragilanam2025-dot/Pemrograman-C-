@@ -1,0 +1,4 @@
+Merupakan awal dari fungsi utama pada C++. 
+Fungsi utama ini merupakan awal dimana program C++ akan mulai dieksekusi. 
+Di dalam fungsi utama ini, bisa jadi terdapat juga fungsi-fungsi lain (seperti yang telah anda ketahui, bahwa sebuah program yang sangat besar akan lebih mudah untuk ditulis dengan membaginya/dipecah menjadi beberapa fungsi).
+Ibarat anda menulis sebuah buku, anda membagi isi buku menjadi beberapa bab, demikian juga dengan kode program. 
