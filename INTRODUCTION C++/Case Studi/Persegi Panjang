@@ -1,0 +1,28 @@
+Program diminta harus menghitung dan menampilkan keliling serta luas dari persegi panjang tersebut.
+Code :
+#include <iostream>
+using namespace std;
+ 
+int main() {
+    int panjang = 10;  // langsung isi nilai
+    int lebar = 5;     // langsung isi nilai
+    int keliling, luas;
+ 
+    // Hitung keliling dan luas
+    keliling = 2 * (panjang + lebar);
+    luas = panjang * lebar;
+ 
+    // Output hasil
+    cout << "Ragil Anam Winarya_25051030053" << endl;
+    cout << "=== Hasil Perhitungan Persegi Panjang ===" << endl;
+    cout << "Panjang : " << panjang << endl;
+    cout << "Lebar   : " << lebar << endl;
+    cout << "Keliling: " << keliling << endl;
+    cout << "Luas    : " << luas << endl;
+ 
+    return 0;
+}
+ 
+
+
+
