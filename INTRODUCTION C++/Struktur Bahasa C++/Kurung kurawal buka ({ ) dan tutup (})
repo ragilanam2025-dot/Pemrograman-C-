@@ -1,0 +1,2 @@
+Blok program pada fungsi utama diawali dengan kurung kurawal buka ({) dan berakhir hingga ditemukan kurung kurawal tutup (}). 
+Semua statement yang berada pada blok program fungsi utama inilah yang akan dieksekusi oleh compiler. 
