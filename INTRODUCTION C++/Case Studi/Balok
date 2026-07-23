@@ -1,0 +1,31 @@
+Program diminta menghitung dan menampilkan luas permukaan serta volume dari balok tersebut.
+Code :
+#include <iostream>
+using namespace std;
+ 
+int main() {
+    // Contoh nilai balok
+    int panjang = 15;
+    int lebar = 6;
+    int tinggi = 8;
+ 
+    int luas_permukaan, volume;
+ 
+    // Rumus luas permukaan balok = 2 * (pl + pt + lt)
+    luas_permukaan = 2 * ((panjang * lebar) + (panjang * tinggi) + (lebar * tinggi));
+ 
+    // Rumus volume balok = p * l * t
+    volume = panjang * lebar * tinggi;
+ 
+    // Output hasil
+    cout << "Ragil Anam Winarya_25051030053" << endl;
+    cout << "=== Hasil Perhitungan Balok ===" << endl;
+    cout << "Panjang         : " << panjang << endl;
+    cout << "Lebar           : " << lebar << endl;
+    cout << "Tinggi          : " << tinggi << endl;
+    cout << "Luas Permukaan  : " << luas_permukaan << endl;
+    cout << "Volume          : " << volume << endl;
+ 
+    return 0;
+}
+ 
