@@ -1,0 +1,34 @@
+Program diminta menghitung dan menampilkan keliling serta luas dari layang-layang tersebut.
+Code :
+#include <iostream>
+using namespace std;
+ 
+int main() {
+    // Contoh nilai layang-layang
+    int diagonal1 = 12;
+    int diagonal2 = 8;
+    int sisiA = 6;  // sepasang sisi sama panjang
+    int sisiB = 10; // sepasang sisi sama panjang
+ 
+    int keliling;
+    float luas;
+ 
+    // Hitung keliling (2 * (sisiA + sisiB))
+    keliling = 2 * (sisiA + sisiB);
+ 
+    // Hitung luas (1/2 * d1 * d2)
+    luas = 0.5 * diagonal1 * diagonal2;
+ 
+    // Output hasil
+    cout << "Ragil Anam Winarya_25051030053" << endl;
+    cout << "=== Hasil Perhitungan Layang-Layang ===" << endl;
+    cout << "Diagonal 1 : " << diagonal1 << endl;
+    cout << "Diagonal 2 : " << diagonal2 << endl;
+    cout << "Sisi A     : " << sisiA << endl;
+    cout << "Sisi B     : " << sisiB << endl;
+    cout << "Keliling   : " << keliling << endl;
+    cout << "Luas       : " << luas << endl;
+ 
+    return 0;
+}
+ 
