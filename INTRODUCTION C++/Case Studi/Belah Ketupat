@@ -1,0 +1,32 @@
+Program diminta menghitung dan menampilkan keliling serta luas dari belah ketupat tersebut.
+Code :
+#include <iostream>
+using namespace std;
+ 
+int main() {
+    // Contoh nilai belah ketupat
+    int diagonal1 = 10;
+    int diagonal2 = 8;
+    int sisi = 6;
+ 
+    int keliling;
+    float luas;
+ 
+    // Hitung keliling (4 * sisi)
+    keliling = 4 * sisi;
+ 
+    // Hitung luas (1/2 * d1 * d2)
+    luas = 0.5 * diagonal1 * diagonal2;
+ 
+    // Output hasil
+    cout << "Ragil Anam Winarya_25051030053" << endl;
+    cout << "=== Hasil Perhitungan Belah Ketupat ===" << endl;
+    cout << "Diagonal 1 : " << diagonal1 << endl;
+    cout << "Diagonal 2 : " << diagonal2 << endl;
+    cout << "Sisi       : " << sisi << endl;
+    cout << "Keliling   : " << keliling << endl;
+    cout << "Luas       : " << luas << endl;
+ 
+    return 0;
+}
+ 
