@@ -1,0 +1,30 @@
+Program diminta menghitung dan menampilkan luas permukaan dan volume dari kubus tersebut.
+Code :
+#include <iostream>
+using namespace std;
+ 
+int main() {
+    // Contoh nilai sisi kubus
+    int sisi = 5;
+ 
+    int luas_permukaan, volume;
+ 
+    // Rumus luas permukaan kubus = 6 * sisi^2
+    luas_permukaan = 6 * (sisi * sisi);
+ 
+    // Rumus volume kubus = sisi^3
+    volume = sisi * sisi * sisi;
+ 
+    // Output hasil
+    cout << "Ragil Anam Winarya_25051030053" << endl;
+    cout << "=== Hasil Perhitungan Kubus ===" << endl;
+    cout << "Sisi            : " << sisi << endl;
+    cout << "Luas Permukaan  : " << luas_permukaan << endl;
+    cout << "Volume          : " << volume << endl;
+ 
+    return 0;
+}
+ 
+
+
+
