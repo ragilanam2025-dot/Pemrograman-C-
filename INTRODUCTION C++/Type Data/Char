@@ -1,0 +1,12 @@
+Char adalah suatu variable yang digunakan untuk menyimpan satu karakter, misalnya huruf, angka, atau simbol.
+Contoh :
+#include <iostream>
+using namespace std;
+ 
+int main() {
+    char kata[] = "Ragil";  // array char dengan akhiran '\0'
+ 
+    cout << "Halo," << kata << endl;
+ 
+    return 0;
+}
