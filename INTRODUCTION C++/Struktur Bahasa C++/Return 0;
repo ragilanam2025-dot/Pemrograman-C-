@@ -1,0 +1,5 @@
+statement return menyatakan akhir dari fungsi utama. 
+return umumnya diikuti dengan kode tertentu (dalam contoh ini, kode return adalah 0). return 0 menyatakan bahwa program bekerja sebagaimana yang diinginkan tanpa adanya error selama eksekusi. 
+Kode ini juga melakukan terminalisasi (menutup berkas-berkas yang digunakan) serta mengembalikan kendali program ke sistem operasi. 
+Return 0 umumnya digunakan untuk mengakhiri program C++. 
+Namun penulisan dengan cara kedua tersebut sangat tidak dianjurkan, karena kode program menjadi sulit dibaca, dan sulit dipahami. Usahakan untuk selalu berpindah ke baris baru setelah anda mendeklarasikan fungsi utama, dan setelah ada tanda titik koma (;).
