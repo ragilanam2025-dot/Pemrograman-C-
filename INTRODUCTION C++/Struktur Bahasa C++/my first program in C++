@@ -1,0 +1,2 @@
+Merupakan baris komentar yang digunakan untuk memberi penjelasan kode program yang dibuat (seperti : tanggal pembuatan program, pencipta program tujuan dibuatnya program). 
+Baris komentar selalu diawali dengan tanda (//) . baris komentar tidak akan dieksekusi oleh compiler/diabaikan.
