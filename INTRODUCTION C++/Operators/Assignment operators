@@ -1,0 +1,74 @@
+Assignment Operators dalam adalah operator yang digunakan untuk memberi nilai pada variabel, atau memperbarui nilainya dengan operasi tertentu.
+=	Assignment operator	Menetapkan nilai ke variabel.	x = 5	x = 5
++=	Addition assignment operator	Menambah nilai ke variabel, lalu hasilnya disimpan kembali ke variabel itu sendiri.	x += 3	x = x + 3
+-=	Subtraction assignment operator	Mengurangi nilai variabel dengan nilai tertentu.	x -= 3	x = x - 3
+*=	Multiplication assignment operator	Mengalikan nilai variabel dengan nilai tertentu.	x *= 3	x = x * 3
+/=	Division assignment operator	Membagi nilai variabel dengan nilai tertentu.	x /= 3	x = x / 3
+%=	Modulus assignment operator	Menyimpan sisa hasil pembagian dari variabel dengan nilai tertentu.	x %= 3	x = x % 3
+&=	Bitwise AND assignment operator	Melakukan operasi AND bitwise antara dua nilai dan menyimpannya ke variabel.	x &= 3	x = x & 3
+|=	Bitwise OR assignment operator	melakukan operasi logika OR antar bit dari dua nilai, lalu menyimpan hasilnya ke variabel	x |= 3	x = x | 3
+^=	Bitwise XOR assignment operator	melakukan operasi logika XOR antar bit dari dua nilai, kemudian hasilnya disimpan ke variabel pertama.	x ^= 3	x = x ^ 3
+>>=	Left shift assignment operator	menggeser semua bit ke kanan sebanyak nilai tertentu, lalu menyimpan hasilnya.	x >>= 3	x = x >> 3
+<<=	Right shift assignment operator	menggeser semua bit ke kiri sebanyak nilai tertentu, lalu menyimpan hasilnya.	x <<= 3	x = x << 3
+Contoh code :
+#include <iostream>
+#include <cmath> // untuk pow()
+ 
+using namespace std;
+ 
+int main() {
+    int a, b;
+    a = 5;
+    b = 3;
+ 
+    // Assignment biasa
+    a = b;
+    cout << "a = b : " << a << endl; // 3
+ 
+    a = 5;
+    a += b;
+    cout << "a += b : " << a << endl; // 8
+ 
+    a = 5;
+    a -= b;
+    cout << "a -= b : " << a << endl; // 2
+ 
+    a = 5;
+    a *= b;
+    cout << "a *= b : " << a << endl; // 15
+ 
+    a = 5;
+    a /= b;
+    cout << "a /= b : " << a << endl; // 1
+ 
+    a = 5;
+    a %= b;
+    cout << "a %= b : " << a << endl; // 2
+ 
+    // Tidak ada operator **= di C++, pakai pow()
+    a = 5;
+    a = pow(a, b); 
+    cout << "a **= b (pakai pow) : " << a << endl; // 125
+ 
+    a = 5;
+    a <<= b;
+    cout << "a <<= b : " << a << endl; // 40
+ 
+    a = 5;
+    a >>= b;
+    cout << "a >>= b : " << a << endl; // 0
+ 
+    a = 5;
+    a &= b;
+    cout << "a &= b : " << a << endl; // 1
+ 
+    a = 5;
+    a |= b;
+    cout << "a |= b : " << a << endl; // 7
+ 
+    a = 5;
+    a ^= b;
+    cout << "a ^= b : " << a << endl; // 6
+ 
+    return 0;
+}
