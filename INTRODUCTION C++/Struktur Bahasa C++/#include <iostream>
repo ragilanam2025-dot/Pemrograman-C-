@@ -1,1 +1,3 @@
-Merupakan pengarah preprocessor. #include <iostream> berarti bahwa memberi perintah kepada preprocessor untuk melibatkan (include) file standar iostream. File iostream ini merupakan file yang didalamnya berisi deklarasi pustaka standar input- output pada C++, dan oleh karenanya dilibatkan karena fungsi ini selanjutnya akan dipergunakan oleh program. 
+Merupakan pengarah preprocessor. 
+#include <iostream> berarti bahwa memberi perintah kepada preprocessor untuk melibatkan (include) file standar iostream. 
+File iostream ini merupakan file yang didalamnya berisi deklarasi pustaka standar input- output pada C++, dan oleh karenanya dilibatkan karena fungsi ini selanjutnya akan dipergunakan oleh program. 
