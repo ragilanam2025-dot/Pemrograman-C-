@@ -1,0 +1,37 @@
+Bitwise Operators adalah operator yang digunakan untuk melakukan operasi langsung pada bit (biner) dari suatu nilai.
+ (&)	Bitwise AND	Membandingkan setiap bit dari dua bilangan biner.	x & y
+ (|)	Bitwise OR	Membandingkan setiap bit, tetapi hasilnya akan 1 jika salah satu bit bernilai 1.	x | y
+ (^)	Bitwise XOR	Menghasilkan 1 hanya jika kedua bit berbeda.	x ^ y
+ (~)	Bitwise NOT	Membalikkan semua bit dari suatu bilangan	~ x
+ (<<)	Left Shift	Menggeser semua bit ke kiri sebanyak jumlah tertentu.	x << 1
+ (>>)	Right Shift	Menggeser semua bit ke kanan sebanyak jumlah tertentu.	x >> 1
+Contoh code :
+#include <iostream>
+using namespace std;
+ 
+int main() {
+    int a = 6;   // biner: 0110
+    int b = 3;   // biner: 0011
+ 
+    cout << "a = " << a << ", b = " << b << endl;
+ 
+    // Bitwise AND
+    cout << "a & b = " << (a & b) << endl;   // 0110 & 0011 = 0010 (2)
+ 
+    // Bitwise OR
+    cout << "a | b = " << (a | b) << endl;   // 0110 | 0011 = 0111 (7)
+ 
+    // Bitwise XOR
+    cout << "a ^ b = " << (a ^ b) << endl;   // 0110 ^ 0011 = 0101 (5)
+ 
+    // Bitwise NOT
+    cout << "~a = " << (~a) << endl;         // komplemen dari 0110
+ 
+    // Left shift (geser bit ke kiri)
+    cout << "a << 1 = " << (a << 1) << endl; // 0110 << 1 = 1100 (12)
+ 
+    // Right shift (geser bit ke kanan)
+    cout << "a >> 1 = " << (a >> 1) << endl; // 0110 >> 1 = 0011 (3)
+ 
+    return 0;
+} 
