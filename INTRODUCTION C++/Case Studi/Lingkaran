@@ -1,0 +1,25 @@
+Program diminta menghitung dan menampilkan keliling serta luas dari lingkaran tersebut dengan menggunakan nilai π (pi) sebesar 3.14.
+Code :
+#include <iostream>
+using namespace std;
+ 
+int main() {
+    float jariJari = 7;   // contoh jari-jari
+    float pi = 3.14;
+    float keliling, luas;
+ 
+    // Hitung keliling dan luas lingkaran
+    keliling = 2 * pi * jariJari;
+    luas = pi * jariJari * jariJari;
+ 
+    // Output hasil
+    cout << "Ragil Anam Winarya_25051030053" << endl;
+    cout << "=== Hasil Perhitungan Lingkaran ===" << endl;
+    cout << "Jari-jari : " << jariJari << endl;
+    cout << "Pi        : " << pi << endl;
+    cout << "Keliling  : " << keliling << endl;
+    cout << "Luas      : " << luas << endl;
+ 
+    return 0;
+}
+ 
