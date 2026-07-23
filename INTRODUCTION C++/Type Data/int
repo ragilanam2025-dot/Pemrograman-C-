@@ -1,0 +1,10 @@
+Int adalah variable yang digunakan untuk menyimpan bilangan bulat, baik positif maupun negatif, tanpa koma/desimal.
+Contoh :
+#include <iostream>
+using namespace std;
+ 
+int main()
+{
+    int myNum = 30;
+    cout << myNum;
+}
