@@ -1,0 +1,31 @@
+Program diminta menghitung dan menampilkan keliling serta luas dari jajar genjang tersebut.
+Code :
+#include <iostream>
+using namespace std;
+ 
+int main() {
+    // Contoh nilai jajar genjang
+    int alas = 15;
+    int tinggi = 5;
+    int sisiMiring = 8;
+ 
+    int keliling;
+    int luas;
+ 
+    // Hitung keliling (2 * (alas + sisi miring))
+    keliling = 2 * (alas + sisiMiring);
+ 
+    // Hitung luas (alas * tinggi)
+    luas = alas * tinggi;
+ 
+    // Output hasil
+    cout << "Ragil Anam Winarya_25051030053" << endl;
+    cout << "=== Hasil Perhitungan Jajar Genjang ===" << endl;
+    cout << "Alas        : " << alas << endl;
+    cout << "Tinggi      : " << tinggi << endl;
+    cout << "Sisi Miring : " << sisiMiring << endl;
+    cout << "Keliling    : " << keliling << endl;
+    cout << "Luas        : " << luas << endl;
+ 
+    return 0;
+}
