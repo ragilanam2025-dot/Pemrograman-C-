@@ -1,0 +1,14 @@
+Double adalah variable yang digunakan untuk menyimpan angka pecahan yang dijadikan dalam bentuk decimal.
+Contoh :
+#include <iostream>
+using namespace std;
+ 
+int main() {
+    double pi = 3.14159;
+    double gaji = 2500.75;
+ 
+    cout << "Nilai PI: " << pi << endl;
+    cout << "Gaji: Rp" << gaji << endl;
+ 
+    return 0;
+}
